@@ -23,6 +23,7 @@ with tf.Session() as sess:
     writer.close()
     
 '''
+#
 
 with tf.name_scope("MyOGroup") : 
     with tf.name_scope("ScopeA"): 

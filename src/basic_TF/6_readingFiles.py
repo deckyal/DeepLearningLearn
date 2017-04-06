@@ -17,3 +17,4 @@ total = tf.reduce_sum(features,name = 'total')
 
 printerop = tf.Print(total,[country,features,total], name = 'printer')
 
+#
